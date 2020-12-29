@@ -12,3 +12,19 @@ npm install && npm run dev
 
 Step 5:
 php artisan serve
+
+Create Model and Migration
+php artisan make:model Category -m
+
+Migrate
+php artisan migrate
+
+To recreate the migration , deleting previous one
+php artisan migrate:fresh
+
+Create controller with methods
+php artisan make:controller CategoryController -r
+
+Lis of Routes
+php artisan route:list
+
