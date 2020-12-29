@@ -1,0 +1,14 @@
+Step 1:
+composer create-project laravel/laravel example-app
+
+Step 2:
+composer require laravel/ui:^3.0
+
+Step 3:
+php artisan ui vue --auth
+
+Step 4: 
+npm install && npm run dev
+
+Step 5:
+php artisan serve
